@@ -3,7 +3,6 @@ import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import { useState } from 'react';
 function App() {
   const [likeColor, setLikeColor] = useState('');
-  const [icon,setIcon] = useState()
   return (
     <div className="App">
       <header className="App-header">
